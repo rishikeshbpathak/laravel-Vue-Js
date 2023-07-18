@@ -1,0 +1,284 @@
+%!Adobe-FontList 1.20
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:BradleyHandITCTT-Bold
+FamilyName:Bradley Hand
+StyleName:Bold
+FullName:Bradley Hand Bold
+MenuName:Bradley Hand
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Ashmit\Downloads\040 Lay VitalAire-Diabetes-Webshop-05 (1)\040 Lay VitalAire-Diabetes-Webshop-05\Document fonts\Bradley Hand Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:596216
+FileModTime:1566685877
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Bradley Hand Bold
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:EmojiOneColor
+FamilyName:EmojiOne
+StyleName:Color
+FullName:EmojiOne
+MenuName:EmojiOne
+StyleBits:0
+WritingScript:Emoji
+OutlineFileName:C:\Users\Ashmit\Downloads\040 Lay VitalAire-Diabetes-Webshop-05 (1)\040 Lay VitalAire-Diabetes-Webshop-05\Document fonts\EmojiOneColor.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:yes
+VariableFontType:NonVariableFont
+FileLength:4232712
+FileModTime:1583397410
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,EmojiOne
+NameArray:0,Win,1,EmojiOne
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:LubalinGraphStd-Book
+FamilyName:ITC Lubalin Graph Std
+StyleName:Book
+FullName:ITC Lubalin Graph Std Book Regular
+MenuName:ITC Lubalin Graph Std Book
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Ashmit\Downloads\040 Lay VitalAire-Diabetes-Webshop-05 (1)\040 Lay VitalAire-Diabetes-Webshop-05\Document fonts\ITC Lubalin Graph Book.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:50756
+FileModTime:1531900543
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,ITC Lubalin Graph Std Book
+NameArray:0,Win,1,ITC Lubalin Graph Std Book
+NameArray:0,Win,16,ITC Lubalin Graph Std
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NHaasGroteskDSStd-45Lt
+FamilyName:Neue Haas Grotesk Display Std
+StyleName:45 Light
+FullName:Neue Haas Grotesk Display Std 45 Light
+MenuName:NeueHaasGroteskDisp Std Lt
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Ashmit\Downloads\040 Lay VitalAire-Diabetes-Webshop-05 (1)\040 Lay VitalAire-Diabetes-Webshop-05\Document fonts\Linotype - Neue Haas Grotesk Display Std 45 Light.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:139512
+FileModTime:1556113262
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,NeueHaasGroteskDisp Std Lt
+NameArray:0,Mac,4,Neue Haas Grotesk Display Std 45 Light
+NameArray:0,Win,1,NeueHaasGroteskDisp Std Lt
+NameArray:0,Win,16,Neue Haas Grotesk Display Std
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Regular
+FamilyName:Minion Pro
+StyleName:Regular
+FullName:Minion Pro
+MenuName:Minion Pro
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Ashmit\Downloads\040 Lay VitalAire-Diabetes-Webshop-05 (1)\040 Lay VitalAire-Diabetes-Webshop-05\Document fonts\MinionPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:231312
+FileModTime:1270772555
+WeightClass:400
+WidthClass:5
+AngleClass:0
+DesignSize:110
+NameArray:0,Mac,4,Minion Pro
+NameArray:0,Win,1,Minion Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-Medium
+FamilyName:Roboto
+StyleName:Medium
+FullName:Roboto Medium
+MenuName:Roboto Medium
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Ashmit\Downloads\040 Lay VitalAire-Diabetes-Webshop-05 (1)\040 Lay VitalAire-Diabetes-Webshop-05\Document fonts\Roboto 500.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:137308
+FileModTime:1409241257
+WeightClass:500
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,Roboto Medium
+NameArray:0,Mac,4,Roboto Medium
+NameArray:0,Win,1,Roboto Medium
+NameArray:0,Win,16,Roboto
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-Bold
+FamilyName:Roboto
+StyleName:Bold
+FullName:Roboto Bold
+MenuName:Roboto
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\Ashmit\Downloads\040 Lay VitalAire-Diabetes-Webshop-05 (1)\040 Lay VitalAire-Diabetes-Webshop-05\Document fonts\Roboto 700.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:170064
+FileModTime:1555022873
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Roboto
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:RobotoSlab-Regular
+FamilyName:Roboto Slab
+StyleName:Regular
+FullName:Roboto Slab Regular
+MenuName:Roboto Slab
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Ashmit\Downloads\040 Lay VitalAire-Diabetes-Webshop-05 (1)\040 Lay VitalAire-Diabetes-Webshop-05\Document fonts\Roboto Slab regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:163672
+FileModTime:1555022790
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Roboto Slab
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-Italic
+FamilyName:Roboto
+StyleName:Italic
+FullName:Roboto Italic
+MenuName:Roboto
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Ashmit\Downloads\040 Lay VitalAire-Diabetes-Webshop-05 (1)\040 Lay VitalAire-Diabetes-Webshop-05\Document fonts\Roboto italic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:173232
+FileModTime:1555022875
+WeightClass:400
+WidthClass:5
+AngleClass:1
+NameArray:0,Win,1,Roboto
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-Regular
+FamilyName:Roboto
+StyleName:Regular
+FullName:Roboto
+MenuName:Roboto
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Ashmit\Downloads\040 Lay VitalAire-Diabetes-Webshop-05 (1)\040 Lay VitalAire-Diabetes-Webshop-05\Document fonts\Roboto regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:170984
+FileModTime:1555022877
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Roboto
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Wingdings2
+FamilyName:Wingdings 2
+StyleName:Regular
+FullName:Wingdings 2
+MenuName:Wingdings 2
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Ashmit\Downloads\040 Lay VitalAire-Diabetes-Webshop-05 (1)\040 Lay VitalAire-Diabetes-Webshop-05\Document fonts\Wingdings 2.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:68768
+FileModTime:1566685878
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Wingdings 2
+NameArray:0,Win,1,Wingdings 2
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Wingdings3
+FamilyName:Wingdings 3
+StyleName:Regular
+FullName:Wingdings 3
+MenuName:Wingdings 3
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Ashmit\Downloads\040 Lay VitalAire-Diabetes-Webshop-05 (1)\040 Lay VitalAire-Diabetes-Webshop-05\Document fonts\Wingdings 3.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:38308
+FileModTime:1566685878
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Wingdings 3
+NameArray:0,Win,1,Wingdings 3
+%EndFont
+

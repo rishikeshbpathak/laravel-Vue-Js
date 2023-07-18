@@ -1,0 +1,69 @@
+.shome-padding {
+    padding: 5% 20% !important;
+}
+
+.txt-blue {
+    color: #86b5c3 !important;
+}
+
+.roboto-slab-regular {
+    font-family: Roboto-Slab-regular;
+}
+
+.custom-button {
+    background-color: #86b5c3;
+    color: white;
+    padding: 12px 50px;
+    border: none;
+    border-radius: 5px;
+    font-family: Roboto-500;
+    text-decoration: none !important;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: 400;
+    font-stretch: normal;
+    font-size: 13.3333px;
+    line-height: normal;
+    /* -webkit-appearance: button; */
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+}
+
+.txt-link {
+    border-bottom: 1px solid #86b5c3;
+}
+
+.atag {
+    color: inherit;
+    text-decoration: none;
+}
+
+.atag:hover {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media(max-width:800px) {
+    .shome-padding {
+        padding: 5% 5% !important;
+    }
+}
+
+.custom-button:hover {
+    color: white !important;
+    transition: .4s;
+    background-color: rgb(72, 120, 134) !important;
+    cursor: pointer;
+}

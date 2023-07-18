@@ -1,0 +1,102 @@
+.n-padding {
+    padding: 3% 30%;
+}
+
+input[type=text],
+input[type=email],
+input[type=number],
+input[type=date],
+select {
+    border: none !important;
+    border-bottom: 2px solid rgb(134, 181, 195) !important;
+    font-size: 1.1em !important;
+    font-family: Roboto-regular;
+    font-weight: normal;
+    color: #666;
+    outline: none;
+    height: auto !important;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+input[type=date]::-webkit-calendar-picker-indicator {
+    background: none;
+}
+
+.custom-padding-top {
+    padding-top: 2% !important;
+}
+
+.uk-radio:checked,
+.uk-checkbox:checked {
+    background-color: rgb(134, 181, 195) !important;
+}
+
+.para-text {
+    color: #c2d5d7;
+}
+
+.para-text:hover {
+    color: #9cb7c1;
+    text-shadow: none;
+}
+
+.buttonnewsletter {
+    font-family: Roboto-500;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #86b5c3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttonnewsletter:hover {
+    background-color: #487886;
+    color: white;
+    transition: .4s;
+    text-decoration: none;
+}
+
+.buttonnewsletter:focus {
+    outline: 0;
+}
+
+form>fieldset>div {
+    margin-top: 30px !important;
+}
+
+@media(max-width:2400px) {}
+
+@media(max-width:2200px) {}
+
+@media(max-width:1700px) {
+    .n-padding {
+        padding: 3% 25%;
+    }
+}
+
+@media(max-width:1450px) {
+    .n-padding {
+        padding: 3% 20%;
+    }
+}
+
+@media(max-width:800px) {
+    .n-padding {
+        padding: 3% 10%;
+    }
+}

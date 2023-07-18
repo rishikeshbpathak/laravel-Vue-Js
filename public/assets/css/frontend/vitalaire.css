@@ -1,0 +1,27 @@
+.vitalpagemain {
+    width: 100%;
+    height: auto;
+}
+
+.custom-padding-top {
+    padding-top: 2% !important;
+}
+
+.vitalairecenter {
+    text-align: center;
+}
+
+.vitalaireatag {
+    color: inherit;
+    text-decoration: none;
+}
+
+.vitalaireatag:hover {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.page3-active {
+    border-bottom: 3px solid white;
+}

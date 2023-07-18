@@ -1,0 +1,44 @@
+.d-padding {
+	padding-left: 30%;
+	padding-right: 30%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.titleh1 {
+	font-family: Roboto-Slab-regular;
+	color: #86b5c3;
+}
+
+.titleh2 {
+	font-family: Roboto-Slab-regular;
+	color: #86b5c3;
+}
+
+.titleh3 {
+	font-family: Roboto-regular;
+	font-weight: 200;
+	color: #9ec3cf;
+}
+
+.titleh4 {
+	font-family: Roboto-regular;
+	color: #7d7d7d;
+	font-weight: bolder;
+}
+
+.para-text {
+	color: #c2d5d7;
+}
+
+.para-text:hover {
+	color: #9cb7c1;
+	text-shadow: none;
+}
+
+@media (max-width: 800px) {
+	.d-padding {
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+}

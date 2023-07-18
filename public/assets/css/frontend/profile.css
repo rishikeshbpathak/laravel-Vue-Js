@@ -1,0 +1,99 @@
+.outside-padding {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.profilephoto {
+    border-radius: 10px;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.profilepicdiv:hover>.overlaystuff {
+    visibility: visible;
+}
+
+.profilepicdiv img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.dummyimage {
+    object-fit: contain !important;
+
+}
+
+.inputstyle {
+    border: none;
+    /* border-bottom: 2px solid rgb(134, 181, 195) ; */
+    font-size: 1.6em;
+    font-family: Roboto-regular;
+    font-weight: normal;
+    color: #666;
+    outline: none;
+    height: auto;
+}
+
+.inputstyle:focus {
+    border-bottom: 2px solid rgb(134, 181, 195);
+}
+
+.inputform {
+    border: none;
+    border-bottom: 2px solid rgb(134, 181, 195);
+    font-size: 1.2rem;
+    font-family: Roboto-regular;
+    font-weight: normal;
+    color: #666;
+    outline: none;
+    height: auto;
+}
+
+.selectstyle {
+    width: 45%;
+    border: none !important;
+    border-bottom: 2px solid rgb(134, 181, 195) !important;
+    font-size: 1.2em !important;
+    font-family: Roboto-regular;
+    font-weight: normal;
+    color: #666;
+    outline: none;
+    height: auto !important;
+}
+
+.upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+
+.upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+
+.uploadhover:hover+.custom-button {
+    color: white !important;
+    transition: .4s;
+    background-color: rgb(72, 120, 134) !important;
+    cursor: pointer;
+}
+
+.uk-select:not([multiple]):not([size]) {
+    background-image: url('../../png/frontend/down-arrow.png') !important;
+    background-size: 5%;
+}
+
+@media(max-width:800px) {
+    .uk-grid {
+        margin-left: 0px !important;
+    }
+}

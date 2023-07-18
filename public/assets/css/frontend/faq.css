@@ -1,0 +1,240 @@
+.searchfield {
+    border: none !important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5) !important;
+    font-size: 1.2em !important;
+    font-family: Roboto-regular;
+    font-weight: normal;
+    color: #666;
+    outline: none;
+    height: auto !important;
+    width: 50%;
+    letter-spacing: 1.5px;
+}
+
+.questionsptag a {
+    color: #86b5c3;
+    text-decoration: none;
+}
+
+.questionsptag a:hover {
+    color: #487886;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.letter-spacing-2 {
+    letter-spacing: 2px !important;
+}
+
+.catnamediv {
+    border-bottom: 3px solid transparent;
+}
+
+.uk-active .catnamediv {
+    border-bottom: 3px solid #86b5c3;
+}
+
+.uk-active .catname {
+    font-weight: bold;
+}
+
+.uk-active .catimage {
+    transform: scale(1.1);
+}
+
+.catlist:hover .catnamediv {
+    border-bottom: 3px solid #86b5c3;
+}
+
+.catlist:hover .catname {
+    font-weight: bold;
+}
+
+.catlist:hover .catimage {
+    transform: scale(1.1);
+}
+
+.cust-padding-cat {
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.cust-padding-small {
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.cust-padding-top {
+    padding-top: 5%;
+}
+
+.likesclass {
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.border-button {
+    border-radius: 5px;
+    border: 3px solid #86b5c3;
+    padding: 10px 30px;
+}
+
+.border-button:hover {
+    border: 3px solid #86b5c3;
+    background-color: #86b5c3;
+    color: white !important;
+}
+
+.atagshowall:hover {
+    text-decoration: none;
+}
+
+.animationlike:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.likesclass:active {
+    outline: none;
+    border: none;
+}
+
+
+.letter-spacing-1 {
+    letter-spacing: 1.5px !important;
+}
+
+.font1 {
+    font-size: 1rem !important;
+}
+
+.font1-2 {
+    font-size: 1.4rem !important;
+}
+
+.padding-left-like {
+    padding-left: 150px;
+}
+
+.searchfield::placeholder {
+    color: rgb(134, 181, 195) !important;
+}
+
+.back-lblue {
+    background-color: #f2f7f8;
+}
+
+.faq-font {
+    font-size: 18px;
+    line-height: 1;
+}
+
+.faq-m-top {
+    margin-top: 10px;
+}
+
+.cust-padding {
+    padding-top: 2% !important;
+}
+
+.faq-link {
+    text-decoration: none !important;
+    color: inherit !important;
+    margin-bottom: 20px;
+    display: block;
+    transition: .4s ease;
+}
+
+.faq-link .faq-font {
+    color: #86b5c3;
+}
+
+.faq-link:hover .faq-font {
+    color: white !important;
+}
+
+.faq-link:hover .back-lblue {
+    background-color: #4f707a !important;
+
+}
+
+.vitalaireatag {
+    color: inherit !important;
+    text-decoration: none;
+}
+
+.vitalaireatag:hover {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* .video-container-wrapper {
+    height: 300px;
+    width: 550px;
+} */
+
+/* .video-container {
+    padding-left: 150px;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+} */
+
+.page2-active {
+    border-bottom: 3px solid white;
+}
+
+.back-dblue {
+    background-color: rgb(72, 120, 134);
+}
+
+.button-white {
+    background-color: white !important;
+    color: rgb(72, 120, 134) !important;
+}
+
+.vertical-icon {
+    position: relative;
+    top: 2px;
+}
+
+@media(max-width:1600px) {
+    .searchfield {
+        width: 80%;
+    }
+}
+
+@media(max-width:800px) {
+    .searchfield {
+        width: 80%;
+    }
+
+    .padding-left-like {
+        padding-left: 40px;
+    }
+
+    .padding-top-kontakt-btn {
+        padding-top: 20px;
+    }
+
+    iframe {
+        width: 100%;
+        height: auto;
+    }
+}

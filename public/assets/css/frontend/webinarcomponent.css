@@ -1,0 +1,108 @@
+.centerdiv {
+	text-align: center;
+}
+
+.slideshowimg {
+	padding-left: 50px;
+}
+
+.colormailicon {
+	color: #86b5c3 !important;
+}
+
+.bgcolordirt {
+	background-color: #f7f7f7;
+}
+
+.textindirt {
+	font-family: Roboto-Slab-regular;
+	color: #86b5c3;
+	margin: 0px;
+	padding: 0px;
+}
+
+.switcher-webinar-first{
+	z-index: 2;
+	/* padding: 25px !important; */
+	/* background-color: #f3f8f9 !important; */
+	border-top-left-radius: 25px;
+	border-bottom-left-radius: 25px;
+}
+
+.switcher-webinar-second{
+	z-index: 2;
+	/* padding: 25px !important; */
+	/* background-color: #f3f8f9 !important; */
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+
+.switcher-button {
+	border-radius: 10px;
+	padding: 15px !important;
+}
+
+.uk-active>a {
+	background-color: #cfe1e7 !important;
+	padding: 15px !important;
+	border-radius: 10px;
+}
+
+.colormailicon {
+	color: #86b5c3 !important;
+}
+
+.blog-slider-bg {
+	/* background-color: #86b5c3; */
+}
+
+.title-wrapper {
+	color: #323232;
+  border-bottom: 1px solid #f2f2f2
+}
+
+.title-tag-calendar {
+	margin-top: 5px !important;
+	padding-top: 5px !important;
+	margin-bottom: 10px !important;
+	padding-bottom: 10px !important;
+	font-weight: bold;
+	color: #9b9b9b;
+  font-size: 12px;
+}
+
+.title-calendar {
+  font-size: 16px;
+}
+
+.datetime-calendar {
+	color: #9b9b9b;
+	font-size: 14px;
+}
+
+.desc-calendar {
+	color: #9b9b9b;
+	font-size: 14px;
+	padding: 7px 0;;
+}
+
+.blog-slider-bg:hover > img {
+	opacity: 0.1;
+}
+
+.blog-slider-bg:hover > .non-hover-text {
+	display: none;
+}
+
+.archieve-calendar-button {
+	top: 0;
+	right: 0;
+	position: absolute;
+}
+
+@media (max-width: 800px) {
+	.slideshowimg {
+		padding-left: 0;
+	}
+	
+}

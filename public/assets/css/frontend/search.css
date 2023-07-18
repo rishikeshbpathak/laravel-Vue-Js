@@ -1,0 +1,48 @@
+.searchbar {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.searchfield {
+    border: none !important;
+    border-bottom: 2px solid rgb(134, 181, 195) !important;
+    font-size: 1.1em !important;
+    font-family: Roboto-regular;
+    font-weight: normal;
+    color: #666;
+    outline: none;
+    height: auto !important;
+}
+
+.darkhr {
+    color: #6f6f6f;
+    border-color: #6f6f6f;
+    background-color: #6f6f6f;
+    border-style: solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.outside-padding {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.resultslist {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    /* padding-right: 5%; */
+    padding-left: 10%;
+}
+
+.grid-center {
+    margin: auto;
+}
+
+.underlineatag:hover {
+    text-decoration: none;
+}

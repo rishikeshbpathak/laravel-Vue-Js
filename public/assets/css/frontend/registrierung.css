@@ -1,0 +1,165 @@
+.form-switch > li > a span {
+	margin: auto;
+	display: block;
+}
+
+.form-switch > li > a {
+	position: relative;
+	text-transform: none !important;
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+
+	font-size: 1.4em !important;
+	background-color: rgb(134, 181, 195) !important;
+	color: white !important;
+	height: 100%;
+}
+
+.form-switch > li:first-child > a {
+	border-top-left-radius: 8px;
+	border-bottom-left-radius: 8px;
+}
+
+.form-switch > li:last-child > a {
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+
+.form-switch > .uk-active > a {
+	background-color: rgb(72, 120, 134) !important;
+}
+
+.form-switch > .uk-active {
+	z-index: 300 !important;
+	position: relative;
+}
+
+.page2-active {
+	border-bottom: 3px solid white;
+}
+
+.form-switch > .uk-active:after {
+	content: "";
+	position: absolute !important;
+	text-align: center;
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	transform: rotate(45deg);
+	z-index: -3 !important;
+	position: relative;
+	margin-top: -20px;
+	background-color: rgb(72, 120, 134);
+}
+
+.form-switch > li {
+	padding: 0px !important;
+	position: relative;
+	display: inline-block !important;
+}
+
+.uk-radio {
+	border: 2px solid #487886 !important;
+	height: 20px !important;
+	width: 20px !important;
+	border-radius: 0;
+}
+
+.uk-radio:checked,
+.uk-radio::selection {
+	background-image: none;
+	background-color: rgb(72, 120, 134) !important;
+}
+
+label {
+	font-size: 0.8em;
+}
+
+.font0_8 {
+	font-size: 0.8em;
+}
+
+.custom-hidden-input {
+	opacity: 0;
+	position: absolute;
+	bottom: 0;
+	z-index: -10;
+	pointer-events: none;
+}
+
+input,
+select,
+.custom-textarea {
+	border: none !important;
+	border-bottom: 2px solid rgb(134, 181, 195) !important;
+	font-size: 18px !important;
+	font-family: Roboto-regular;
+	font-weight: normal;
+	color: #666;
+	outline: none;
+	height: auto !important;
+}
+
+form > div {
+	margin-top: 30px !important;
+}
+
+.text-link {
+	color: #666 !important;
+	text-decoration: underline;
+}
+
+.uk-alert {
+	background: inherit !important;
+}
+
+.margin-top-input {
+	margin-top: 10px;
+}
+
+.custom-padding-top {
+	padding-top: 2% !important;
+}
+
+.custom-button:hover {
+	color: white !important;
+	transition: 0.4s;
+	background-color: rgb(72, 120, 134) !important;
+	cursor: pointer;
+}
+
+.banner-content-absolute {
+	position: absolute;
+	top: 0px;
+	/* width: 100%; */
+	height: 100%;
+	padding-left: 30%;
+	padding-right: 30%;
+	margin-left: 0px;
+	left: 0px;
+}
+
+.banner-content-absolute .grid-center {
+	margin-left: 0px !important;
+}
+
+.banner-content-absolute > div {
+	padding-left: 0px;
+}
+
+@media (max-width: 800px) {
+	.form-switch > li > a {
+		font-size: 1em !important;
+	}
+
+	.banner-content-absolute {
+		padding-left: 10%;
+		padding-right: 10%;
+		margin-left: 0px;
+		left: 0px !important;
+	}
+
+	.banner-content-absolute > div {
+		padding-left: 0px !important;
+	}
+}

@@ -1,11 +1,24 @@
 <template>
   <div>
-    <h1>Laravel vue project</h1>
-  </div>
-  <div>
-    <Label>Name:</Label>
+    <h1>Hello {{name}}</h1>
   </div>
 </template>
 
-<!-- simple template -->
 
+<script lang="ts">
+import Vue from 'vue'
+import { Component} from 'vue-property-decorator'
+
+@Component
+export default class App extends Vue {
+    name:any
+
+}
+
+</script>
+
+
+
+<style lang="css">
+
+</style>

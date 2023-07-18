@@ -1,0 +1,24 @@
+.impressum-padding {
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+@media(max-width:800px) {
+    .impressum-padding {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+
+.titleh2 {
+    font-family: Roboto-Slab-regular;
+    color: #86b5c3;
+}
+
+.titleh3 {
+    font-family: Roboto-regular;
+    font-weight: 200;
+    color: #9ec3cf;
+}

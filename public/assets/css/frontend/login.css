@@ -1,0 +1,105 @@
+.user-main {
+    background-color: white;
+    z-index: 100;
+    margin-top: -25px;
+    border-radius: 10px;
+    border: 1px solid #487886;
+}
+
+.txt-blue {
+    color: #86b5c3 !important;
+}
+
+.roboto-slab-regular {
+    font-family: Roboto-Slab-regular;
+}
+
+.login-f {
+    border: none !important;
+    border-bottom: 2px solid rgb(134, 181, 195) !important;
+    font-size: 1.1em !important;
+    font-family: Roboto-regular;
+    font-weight: normal;
+    color: #666;
+    outline: none;
+    height: auto !important;
+    background-color: transparent !important;
+}
+
+.custom-button {
+    background-color: #86b5c3;
+    color: white;
+    padding: 12px 50px;
+    border: none;
+    border-radius: 5px;
+    font-family: Roboto-500;
+    text-decoration: none !important;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: 400;
+    font-stretch: normal;
+    font-size: 13.3333px;
+    line-height: normal;
+    /* -webkit-appearance: button; */
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+}
+
+.atag {
+    color: inherit;
+    text-decoration: none;
+}
+
+.uk-alert {
+    background: inherit !important;
+}
+
+.atag:hover {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.uk-checkbox {
+    border: 1px solid #86b5c3;
+}
+
+.uk-checkbox:checked {
+    background-color: #487886 !important;
+}
+
+.login-links a {
+    font-size: 0.8em;
+}
+
+.login-links>div {
+    padding-left: 0px !important;
+}
+
+.custom-button:hover {
+    color: white !important;
+    transition: .4s;
+    background-color: rgb(72, 120, 134) !important;
+    cursor: pointer;
+}
+
+.custom-checkbox-padding {
+    padding: 20px 5px;
+}
+
+@media(max-width:800px) {
+    .mob-center {
+        text-align: center !important;
+    }
+}

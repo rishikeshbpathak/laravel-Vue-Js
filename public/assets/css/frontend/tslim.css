@@ -1,0 +1,154 @@
+.font0_8 {
+    font-size: 0.8em !important;
+
+}
+
+.custom-padding-top {
+    padding-top: 2% !important;
+}
+
+.info-button {
+    letter-spacing: 1.5px !important;
+    width: 90% !important;
+    padding: 15px 10px !important;
+}
+
+.download-button {
+    letter-spacing: 1.5px !important;
+    width: 65% !important;
+    padding: 15px 10px !important;
+}
+
+.download-uk-icon>svg {
+    margin-top: -4px !important;
+}
+
+.page1-active {
+    border-bottom: 3px solid white;
+}
+
+.sectionminorpadding-leftimg {
+    margin-left: 20%;
+}
+
+.sectionminorpadding-lefttext {
+    margin-left: 0%;
+}
+
+.no-break-same-line-1-1 {
+    display: none;
+}
+
+.no-break-same-line-1-2 {
+    display: none;
+}
+
+.button-height-tslim-relative>div {
+    position: relative;
+}
+
+.button-height-tslim {
+    height: 80px;
+}
+
+.button-height-tslim-absolute {
+    position: absolute;
+    bottom: 0;
+    width: 90% !important;
+}
+
+.no-break-same-line-2-1 {
+    display: none;
+}
+
+.no-break-same-line-2-2 {
+    display: none;
+}
+
+@media(max-width:1568px) {
+    .no-break-same-line-2-1 {
+        display: block;
+    }
+
+    .no-break-same-line-2-2 {
+        display: block;
+    }
+}
+
+@media(max-width:1235px) {
+
+    .no-break-same-line-2-2 {
+        display: none;
+    }
+}
+
+@media(max-width:1430px) {
+    .no-break-same-line-1-1 {
+        display: block;
+    }
+
+    .no-break-same-line-1-2 {
+        display: block;
+    }
+}
+
+@media(max-width:1130px) {
+    .no-break-same-line-1-1 {
+        display: none;
+    }
+}
+
+@media(max-width:1700px) {
+    .sectionminorpadding-leftimg {
+        margin-left: 10%;
+    }
+}
+
+@media(max-width:1450px) {
+    .sectionminorpadding-leftimg {
+        margin-left: 5%;
+    }
+}
+
+@media(max-width:1200px) {
+    .no-break-same-line-2-2 {
+        display: block;
+    }
+}
+
+@media(max-width:1185px) {
+    .no-break-same-line-2-2 {
+        display: none;
+    }
+}
+
+
+@media(max-width:800px) {
+    .sectionminorpadding-leftimg {
+        margin-left: 10%;
+    }
+
+    .no-break-same-line-1-1 {
+        display: none;
+    }
+
+    .no-break-same-line-1-2 {
+        display: none;
+    }
+
+    .no-break-same-line-2-1 {
+        display: none;
+    }
+
+    .no-break-same-line-2-2 {
+        display: none;
+    }
+
+    .sectionminorpadding-lefttext {
+        margin-left: 60px;
+    }
+
+    .mob-padding-download {
+        padding-left: 10%;
+    }
+}

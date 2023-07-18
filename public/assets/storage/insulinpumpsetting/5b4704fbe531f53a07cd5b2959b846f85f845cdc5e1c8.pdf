@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Home | Vital-aire</title>
+ <meta name="Description" content="Description">
+ <meta name="Keywords" content="keyword">
+  <link rel="icon" type="image/png" sizes="16x16" href="http://localhost/vital-aire/assets/png/frontend/favicon.png">
+ <link rel="stylesheet" type="text/css" href="http://localhost/vital-aire/assets/css/frontend/uikit.min.css">
+ <link rel="stylesheet" type="text/css" href="http://localhost/vital-aire/assets/css/frontend/fontstyles.css">
+ <link rel="stylesheet" type="text/css" href="http://localhost/vital-aire/assets/css/frontend/headercomponent.css">
+<link rel="stylesheet" type="text/css" href="http://localhost/vital-aire/assets/css/frontend/footercomponent.css">
+<link rel="stylesheet" type="text/css" href="http://localhost/vital-aire/assets/css/frontend/home.css">
+</head>
+
+<body>
+
+
+ <div id="vapp">
+ <script src="http://localhost/vital-aire/assets/js/frontend/header.js"></script>
+<header class="header" id="header" uk-sticky="media: (max-width: 800px); animation: uk-animation-slide-top">
+ <div class="bgtopdiv des">
+ <div class="uk-child-width-1-5 uk-grid-collapse font18" uk-grid>
+ <div></div>
+ <div>
+ <p class="header-text right">
+ Kundenservice:
+ </p>
+ </div>
+ <div>
+ <p class="header-text center">
+ <img src="http://localhost/vital-aire/assets/png/frontend/phone.png" style="margin-top: -6px" width="25" alt="">
+ &nbsp;
+ <a class="numberemail kontakt-link" href="tel:0800/1001644">0800/100 16 44</a>
+ </p>
+ </div>
+ <div>
+ <p class="header-text left">
+ <img src="http://localhost/vital-aire/assets/png/frontend/mail.png" style="margin-top: -3px" width="25" alt="">
+ &nbsp;
+ <a class="numberemail kontakt-link" href="mailto:diabetes@vitalaire.de">diabetes@vitalaire.de</a>
+ </p>
+ </div>
+ <div></div>
+ </div>
+ </div>
+ <div class="bgbottomdiv">
+ <br />
+ <div class="bgbottomdivone">
+ <div class="uk-child-width-1-3 uk-grid-center" uk-grid>
+ <div class="bgbottomleftside">
+ <div class="mob"><a class="sideicons" href="#offcanvas-nav" uk-icon="icon: menu; ratio: 2"
+ style="color: white;" uk-toggle>
+ </a></div>
+ </div>
+ <div class="bgbottomcenterside">
+ <a href="http://localhost/vital-aire/">
+ <img src="http://localhost/vital-aire/assets/png/frontend/vitalairelogohalf.png" width="200" alt="logo" />
+ </a>
+ </div>
+ <div class="bgbottomrightside">
+ <div class="des">
+ <Search style="display: inline" url="http://localhost/vital-aire/header/search"
+ pageslist="http://localhost/vital-aire/search/allpages">
+ </Search>
+  </div>
+ </div>
+ </div>
+ </div>
+ <br>
+ <div uk-sticky="show-on-up: true;animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent uk-light; top: 200"
+ class="des header-back margin-bottom-sidemenu">
+ <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+ <div class="uk-navbar-center">
+ <ul class="uk-navbar-nav">
+ <li class="uk-inline page1-active" id="nav1" onmouseover="naveover1()" onmouseout="navout1()">
+ <a class="navlink font24">t:slim X2</a>
+ <div class="submenudropdown"
+ uk-dropdown="pos: bottom-justify; boundary: .header; boundary-align: true; offset: 0; animation: uk-animation-slide-top-small; mode: hover;">
+ <div class="uk-dropdown-grid uk-child-width-1-4@m headersubmenubg font16" uk-grid>
+ <div class="grid-center">
+ <p style="color: white" class="uk-text-left font16">
+ Die intuitive Bedienung und das unauffällige, zurückgenommene Design dieser
+ cleveren Insulinpumpe ermöglicht dir, deinen Fokus auf dein Leben zu
+ lenken, nicht auf dein Diabetes.
+ </p>
+ </div>
+ <div>
+ <ul class="uk-nav uk-dropdown-nav">
+ <li><a href="http://localhost/vital-aire/tslim">
+ <div uk-grid>
+ <div class="uk-width-auto">
+ <img src="http://localhost/vital-aire/assets/png/frontend/tslimx2.png"
+ width="50" alt="tslimx2">
+ </div>
+ <div class="uk-width-expand center-vertical uk-text-left">
+ <p class="white-space-normal font16">t:slim X2 Insulinpumpe
+ </p>
+ </div>
+ </div>
+ </a>
+ </li>
+ <br>
+ <li><a href="http://localhost/vital-aire/basal">
+ <div uk-grid>
+ <div class="uk-width-auto">
+ <img src="http://localhost/vital-aire/assets/png/frontend/basal.png"
+ width="50" alt="basal">
+ </div>
+ <div class="uk-width-expand center-vertical uk-text-left">
+ <p class="white-space-normal font16">Basal-IQ Technologie
+ </p>
+ </div>
+ </div>
+ </a>
+ </li>
+ <br>
+ <li><a href="http://localhost/vital-aire/tslim/cgm">
+ <div uk-grid>
+ <div class="uk-width-auto">
+ <img src="http://localhost/vital-aire/assets/png/frontend/integration.png"
+ width="50" alt="integration">
+ </div>
+ <div class="uk-width-expand center-vertical uk-text-left">
+ <p class="white-space-normal font16">Integration FGM/CGM</p>
+ </div>
+ </div>
+ </a>
+ </li>
+ </ul>
+ </div>
+ <div>
+ <ul class="uk-nav uk-dropdown-nav">
+ <li><a href="http://localhost/vital-aire/tslim/diasend">
+ <div uk-grid>
+ <div class="uk-width-auto">
+ <img src="http://localhost/vital-aire/assets/png/frontend/diasend.png"
+ width="50" alt="diasend">
+ </div>
+ <div class="uk-width-expand center-vertical uk-text-left">
+ <p class="white-space-normal font16">Anwendung Diasend by
+ glooko
+ </p>
+ </div>
+ </div>
+ </a>
+ </li>
+ <br>
+ <li><a href="http://localhost/vital-aire/verbrauchsmaterialien">
+ <div uk-grid>
+ <div class="uk-width-auto">
+ <img src="http://localhost/vital-aire/assets/png/frontend/verbrauchsmaterialien.png"
+ width="50" alt="verbrauchsmaterialien">
+ </div>
+ <div class="uk-width-expand center-vertical uk-text-left">
+ <p class="white-space-normal font16">Verbrauchsmaterialien
+ </p>
+ </div>
+ </div>
+ </a>
+ </li>
+ </ul>
+ </div>
+ <div></div>
+ </div>
+ </div>
+ </li>
+ <li id="nav2" class="page2-active" onmouseover="naveover2()" onmouseout="navout2()">
+ <a class="navlink font24">Deine t:slim X2</a>
+ <div class="submenudropdown"
+ uk-dropdown="pos: bottom-justify; boundary: .header; boundary-align: true; offset: 0; animation: uk-animation-slide-top-small; mode: hover;">
+ <div class="uk-dropdown-grid uk-child-width-1-4@m headersubmenubg" uk-grid>
+ <div class="grid-center">
+ <p style="color: white" class="uk-text-left font16">
+ Hier findest du alles rund um die clevere Insulinpumpe, viele hilfreiche
+ Anwendungstipps sowie nützliche Informationen die dir dein Leben mit der
+ t:slim X2 noch angenehmer machen.
+ </p>
+ </div>
+ <div>
+ <ul class="uk-nav uk-dropdown-nav">
+ <li><a href="http://localhost/vital-aire/einfach">
+ <div uk-grid>
+ <div class="uk-width-auto">
+ <img src="http://localhost/vital-aire/assets/png/frontend/tslimx2.png"
+ width="50" alt="tslimx2">
+ </div>
+ <div class="uk-width-expand center-vertical uk-text-left">
+ <p class="white-space-normal font16">So einfach kommst du zu
+ deiner
+ Insulinpumpe</p>
+ </div>
+ </div>
+ </a>
+ </li>
+ <br>
+ <li><a href="http://localhost/vital-aire/erste">
+ <div uk-grid>
+ <div class="uk-width-auto">
+ <img src="http://localhost/vital-aire/assets/png/frontend/fingersensor.png"
+ width="50" alt="fingersensor">
+ </div>
+ <div class="uk-width-expand center-vertical uk-text-left">
+ <p class="white-space-normal font16">Erste Schritte mit
+ deiner
+ t:slim X2</p>
+ </div>
+ </div>
+ </a>
+ </li>
+ <br>
+ <li><a href="http://localhost/vital-aire/einstellung">
+ <div uk-grid>
+ <div class="uk-width-auto">
+ <img src="http://localhost/vital-aire/assets/png/frontend/settings.png"
+ width="50" alt="settings">
+ </div>
+ <div class="uk-width-expand center-vertical uk-text-left">
+ <p class="white-space-normal font16">Einstellung der
+ Insulinpumpe
+ </p>
+ </div>
+ </div>
+ </a>
+ </li>
+ </ul>
+ </div>
+ <div>
+ <ul class="uk-nav uk-dropdown-nav">
+ <li><a href="http://localhost/vital-aire/insulinpumpe">
+ <div uk-grid>
+ <div class="uk-width-auto">
+ <img src="http://localhost/vital-aire/assets/png/frontend/calculator.png"
+ width="50" alt="calculator">
+ </div>
+ <div class="uk-width-expand center-vertical uk-text-left">
+ <p class="white-space-normal font16">Insulinpumpe in der
+ Anwendung
+ </p>
+ </div>
+ </div>
+ </a>
+ </li>
+ <br>
+ <li><a href="http://localhost/vital-aire/technische">
+ <div uk-grid>
+ <div class="uk-width-auto">
+ <img src="http://localhost/vital-aire/assets/png/frontend/usb.png"
+ width="50" alt="USB">
+ </div>
+ <div class="uk-width-expand center-vertical uk-text-left">
+ <p class="white-space-normal font16">Technische
+ Hilfestellungen</p>
+ </div>
+ </div>
+ </a>
+ </li>
+ <br>
+ <li><a href="http://localhost/vital-aire/tipps">
+ <div uk-grid>
+ <div class="uk-width-auto">
+ <img src="http://localhost/vital-aire/assets/png/frontend/bulb.png"
+ width="50" alt="bulb">
+ </div>
+ <div class="uk-width-expand center-vertical uk-text-left">
+ <p class="white-space-normal font16">Tipps & Tricks</p>
+ </div>
+ </div>
+ </a>
+ </li>
+ </ul>
+ </div>
+ <div>
+ <ul class="uk-nav uk-dropdown-nav">
+ <li><a href="http://localhost/vital-aire/faq">
+ <div uk-grid>
+ <div class="uk-width-auto">
+ <img src="http://localhost/vital-aire/assets/png/frontend/laptop.png"
+ width="50" alt="laptop">
+ </div>
+ <div class="uk-width-expand center-vertical uk-text-left">
+ <p class="white-space-normal font16">FAQ</p>
+ </div>
+ </div>
+ </a>
+ </li>
+ <br>
+ <li><a href="http://localhost/vital-aire/download">
+ <div uk-grid>
+ <div class="uk-width-auto">
+ <img src="http://localhost/vital-aire/assets/png/frontend/download.png"
+ width="50" alt="download">
+ </div>
+ <div class="uk-width-expand center-vertical uk-text-left">
+ <p class="white-space-normal">Downloads</p>
+ </div>
+ </div>
+ </a>
+ </li>
+ <br>
+ <li><a href="http://localhost/vital-aire/kontaktformular">
+ <div uk-grid>
+ <div class="uk-width-auto">
+ <img src="http://localhost/vital-aire/assets/png/frontend/kontakt.png"
+ width="50" alt="kontakt">
+ </div>
+ <div class="uk-width-expand center-vertical uk-text-left">
+ <p class="white-space-normal">Kontakt</p>
+ </div>
+ </div>
+ </a>
+ </li>
+ </ul>
+ </div>
+ </div>
+ </div>
+ </li>
+ <li class="page3-active" onmouseover="naveover3()" onmouseout="navout3()" id="nav3">
+ <a class="navlink font24" href="http://localhost/vital-aire/vitalaire">VitalAire</a>
+ </li>
+ <li class="page4-active" id="nav4" onmouseover="naveover4()" onmouseout="navout4()">
+ <a class="navlink font24" target="_blank" rel="noopener"
+ href="https://shop.vitalaire.de/">Shop</a>
+ </li>
+ </ul>
+ </div>
+ </nav>
+ </div>
+ <br class="des">
+
+ <div id="offcanvas-nav" uk-offcanvas=" overlay: true">
+ <div class="uk-offcanvas-bar">
+ <br><br>
+ <div class="uk-child-width-1-2 boundary-align" uk-grid>
+ <div>
+ <a uk-icon="icon: search; ratio: 1.5" class="sideicons" href="http://localhost/vital-aire/search"></a>
+ </div>
+ </div>
+ <ul class="uk-nav uk-navbar-default uk-nav-parent-icon" uk-nav>
+ <a class="closeicon uk-offcanvas-close" href="#offcanvas-nav" uk-close></a>
+ <br>
+ <li class="uk-parent">
+ <a class="navlink page1-active">t:slim X2</a>
+ <ul class="uk-nav-sub uk-text-left">
+ <li><a class="line-height1" href="http://localhost/vital-aire/tslim">t:slim X2 Insulinpumpe</a><br></li>
+ <li><a class="line-height1" href="http://localhost/vital-aire/basal">Basal-IQ Technologie</a><br></li>
+ <li><a class="line-height1" href="http://localhost/vital-aire/tslim/cgm">Integration FGM/CGM</a><br></li>
+ <li><a class="line-height1" href="http://localhost/vital-aire/tslim/diasend">Anwendung Diasend by
+ glooko</a><br>
+ </li>
+ <li><a class="line-height1"
+ href="http://localhost/vital-aire/verbrauchsmaterialien">Verbrauchsmaterialien</a></li>
+ </ul>
+ </li>
+ <br>
+ <li class="uk-parent">
+ <a class="navlink page2-active">Deine t:slim X2</a>
+ <ul class="uk-nav-sub uk-text-left">
+ <li><a class="line-height1" href="http://localhost/vital-aire/einfach">So einfach kommst du zu deiner
+ Insulinpumpe</a><br></li>
+ <li><a class="line-height1" href="http://localhost/vital-aire/erste">Erste Schritte mit deiner t:slim
+ X2</a><br>
+ </li>
+ <li><a class="line-height1" href="http://localhost/vital-aire/einstellung">Einstellung der
+ Insulinpumpe</a><br>
+ </li>
+ <li><a class="line-height1" href="http://localhost/vital-aire/insulinpumpe">Insulinpumpe in der
+ Anwendung</a><br></li>
+ <li><a class="line-height1" href="http://localhost/vital-aire/technische">Technische Hilfestellungen</a><br>
+ </li>
+ <li><a class="line-height1" href="http://localhost/vital-aire/tipps">Tipps & Tricks</a><br></li>
+ <li><a class="line-height1" href="http://localhost/vital-aire/faq">FAQ</a><br></li>
+ <li><a class="line-height1" href="http://localhost/vital-aire/download">Downloads</a><br></li>
+ <li><a class="line-height1" href="http://localhost/vital-aire/kontaktformular">Kontakt</a></li>
+ </ul>
+ </li>
+ <br>
+ <li>
+ <a class="navlink page3-active" href="http://localhost/vital-aire/vitalaire">VitalAire</a>
+ </li>
+ <br>
+ <li>
+ <a class="navlink page4-active" target="_blank" rel="noopener"
+ href="https://shop.vitalaire.de/">Shop</a>
+ </li>
+ </ul>
+ </div>
+
+ </div>
+</header>
+<main><img src="http://localhost/vital-aire/assets/images/frontend/homepagetslim.jpg" class="homepagemain" alt="t:slim X2" />
+<br />
+<br />
+<br />
+<div class="toptextdiv">
+ <h1 class="h1inhomepage">Alles zu deiner t:slim X2™ Insulinpumpe mit Basal-IQ™ Technologie</h1>
+ <h2 class="h2inhomepage">
+ Innovative Technologie und modernes Design für Menschen mit Diabetes.
+ </h2>
+ <br />
+ <p class="pinhomepage font18">
+ Intensive Entwicklung und jahrelange Erfahrung vereint in einer Insulinpumpe, die den Markt neu definiert. Die
+ t:slim X2™ Insulinpumpe mit Basal-IQ™ Technologie wird deinen Alltag einfacher gestalten und dir ein
+ entspannteres Leben ermöglichen.
+ </p>
+ <p class="pinhomepage font18">
+ Mit der intuitiven Handhabung und kinderleichten Bedienung ist unsere Insulinpumpe für jede Altersgruppe
+ geeignet und Bedarf keiner komplizierten Einweisung.
+ </p>
+ <p class="pinhomepage font18">
+ Auf unserer Website findest du alles rund um die clevere Insulinpumpe, viele hilfreiche Anwendungstipps und
+ nützliche Tipps, die dir dein Leben mit der t:slim X2 noch angenehmer machen.
+ </p>
+ <br>
+ <a class="buttoninfos font16" href="http://localhost/vital-aire/tslim">MEHR ZUR INSULINPUMPE</a>
+ <br />
+ <br />
+</div>
+<div style="overflow: hidden">
+ <div class="handimagediv" uk-parallax=" x: 100, 0; scale: 0.8,1; viewport: 0.5;">
+ <img src="http://localhost/vital-aire/assets/images/frontend/handimage.png" class="handimage" alt="handimage" />
+ </div>
+</div>
+<div class="centerdiv">
+ <h1 class="handimagetext">Einfach entspannter Leben.</h1>
+</div>
+<div class="bgcolordirt">
+ <div class="centerdiv" id="subscriveDive">
+ <br />
+ <br />
+ <span class="colormailicon" uk-icon="icon: mail; ratio: 3.0"></span>
+ <br />
+ <br />
+ <h3 class="textindirt">Immer bestens informiert.</h3>
+ <h3 class="textindirt">Bleib mit unserem Newsletter immer up to date.</h3>
+ <br />
+ <br />
+ <a class="buttonnewsletter font16" href="http://localhost/vital-aire/newsletter">JETZT FÜR DEN NEWSLETTER ANMELDEN</a>
+ <br />
+ <br />
+ <br />
+ <a href="#header" class="colormailicon" uk-icon="icon: chevron-up; ratio: 1.5" uk-scroll></a>
+ <br />
+ <br />
+ </div>
+</div>
+<div class="centerdiv">
+ <br />
+ <br />
+ <span class="colormailicon" uk-icon="icon: tag; ratio: 3.0"></span>
+ <br />
+ <br />
+ <h3 class="textindirt font28">Verbrauchsmaterialien</h3>
+
+ <br />
+ <br />
+ <div class="homeslidercover">
+ <div uk-slider="autoplay: true">
+
+ <div class="uk-position-relative">
+
+ <div class="uk-slider-container uk-light">
+ <ul class="uk-slider-items uk-child-width-1-1@s uk-child-width-1-3@m image-slide">
+  <li>
+ <div class="slider-relative">
+ <div class="uk-h3 slide-content">
+ <span class="roboto-slab-regular font18">AutoSoft-90-infusion-set <br />
+ Infusionssets</span>
+ <br />
+ <br />
+ <a href="http://localhost/vital-aire/verbrauchsmaterialien"
+ class="custom-button">VERBRAUCHSMATERALIEN</a>
+ </div>
+ </div>
+   <img src="http://localhost/vital-aire/storage/product/1593166397.jpg" alt uk-cover
+ style="width:100%; padding: 5px;" />
+       </li>
+  <li>
+ <div class="slider-relative">
+ <div class="uk-h3 slide-content">
+ <span class="roboto-slab-regular font18">Disc <br />
+ Reservoir</span>
+ <br />
+ <br />
+ <a href="http://localhost/vital-aire/verbrauchsmaterialien"
+ class="custom-button">VERBRAUCHSMATERALIEN</a>
+ </div>
+ </div>
+     <img src="http://localhost/vital-aire/storage/product/1593166878.jpg" alt uk-cover
+ style="width:100%; padding: 5px;" />
+     </li>
+  <li>
+ <div class="slider-relative">
+ <div class="uk-h3 slide-content">
+ <span class="roboto-slab-regular font18">VarioSoft-Infusionsset <br />
+ Infusionssets</span>
+ <br />
+ <br />
+ <a href="http://localhost/vital-aire/verbrauchsmaterialien"
+ class="custom-button">VERBRAUCHSMATERALIEN</a>
+ </div>
+ </div>
+       <img src="http://localhost/vital-aire/storage/product/1593167151.jpg" alt uk-cover
+ style="width:100%; padding: 5px;" />
+   </li>
+  </ul>
+ </div>
+ <div>
+ <a class="uk-position-center-left-out uk-position-small slider-arrow" href="#" uk-slidenav-previous
+ uk-slider-item="previous"></a>
+ <a class="uk-position-center-right-out uk-position-small slider-arrow" href="#" uk-slidenav-next
+ uk-slider-item="next"></a>
+ </div>
+ </div>
+ <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+ <br>
+ <br>
+ </div>
+ </div>
+</div>
+<div class="back-blue">
+ <div class="cust-home-padding">
+ <div class="uk-text-center">
+ <h3 class="wh roboto-slab-regular font28">Ergebnisse klinischer Studien</h3>
+ </div>
+ <br>
+ <div class="uk-child-width-1-2@m uk-child-width-1-1@s div-padding" uk-grid>
+ <div uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
+ <div class="percent-number roboto-slab-regular" style="margin-bottom: 10px">
+ 31%
+ </div>
+ <div class="back-white-text roboto font24">
+ Weniger Hypoglykämien
+ </div>
+ <div class="uk-padding-small uk-text-center">
+ <p class="wh roboto font18">
+ relative Reduzierung der Dauer und Häufigkeit von niedrigen Glukosewerten unter 70 mg/dl, wenn
+ Studienteilnehmer eine t:slim X2 Pumpe mit Basal-IQ Technologie einsetzen. <sup>1,2</sup>
+ </p>
+ </div>
+ </div>
+ <div uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+ <div class="percent-number roboto-slab-regular" style="margin-bottom: 10px">
+ 91%
+ </div>
+
+ <div class="back-white-text roboto font24">
+ Einfache Handhabung
+ </div>
+ <div class="uk-padding-small roboto uk-text-center">
+ <p class="wh roboto font18">
+ der Studienteilnehmer fanden die Basal-IQ Technologie der t:slim X2 Insulinpumpe einfach zu
+ handhaben. <sup>1,2</sup>
+ </p>
+ </div>
+ </div>
+ </div>
+ </div>
+</div>
+
+<div class="cust-padding uk-text-center">
+ <h3 class="txt-blue roboto-slab-regular font28">
+ Teste die t:slim X2 auf deinem Smartphone
+ </h3>
+ <br />
+ <span class="roboto font18">
+ Überzeug dich von der Einfachheit der Funktionen und lade dir die Demo-App herunter:
+ </span>
+ <br />
+ <br />
+ <br />
+ <span class="txt-blue roboto" style="font-size: 20px;">
+ t:simulator™ App
+ </span>
+ <br />
+ <br />
+ <div uk-grid>
+ <div class="uk-width-expand">
+ <div class="uk-text-right">
+ <a target="_blank" rel="noopener" href="https://apple.co/3aIuBwc">
+ <img src="http://localhost/vital-aire/assets/images/frontend/appstorewitharrow.png" width="300" alt="Appstore">
+ </a>
+ </div>
+ </div>
+ <div class="uk-width-auto">
+ <img src="http://localhost/vital-aire/assets/png/frontend/rightarrow.png" width="50" style="visibility: hidden" alt="space">
+ </div>
+ <div class="uk-width-expand">
+ <div class="uk-text-left">
+ <a target="_blank" rel="noopener" href="https://bit.ly/2Yd6iBp">
+ <img src="http://localhost/vital-aire/assets/images/frontend/googleplaywitharrow.png" width="300" alt="Playstore">
+ </a>
+ </div>
+ </div>
+ </div>
+</div>
+<div class="homeoutercover">
+ <div uk-grid class="">
+ <div class="uk-width-1-2@m uk-width-1-1@s">
+ <div class=" ">
+ <div>
+ <h3 class="txt-blue roboto-slab-regular double-quotes">Ich hatte anfangs etwas Angst und wollte
+ keine
+ Insulinpumpe haben. Als wir sie dann aber hatten, fand ich sie toll
+ </h3>
+ <div>
+ <p class="sectionptag font18">
+ Charlotte, Typ 1 Diabetes, baut Roboter, liebt das Meer, witzige Schwester
+ </p>
+ </div>
+ </div>
+ </div>
+ </div>
+ <div class="uk-width-1-2@m uk-width-1-1@s">
+ <img src="http://localhost/vital-aire/assets/images/frontend/girl.png" alt="girl">
+ </div>
+ </div>
+</div>
+</main>
+<footer>
+ <div class="footerbg">
+ <div class="footertopsection">
+ <br />
+ <br />
+ <br />
+ <a href="header" class="footerarrowicon" uk-icon="icon: chevron-up; ratio: 1.5" uk-scroll></a>
+ <br />
+ <br />
+ <br />
+ <img src="http://localhost/vital-aire/assets/png/frontend/vitalairelogohalf.png" width="300" alt="logo" />
+ <br />
+ <br />
+ <br />
+ </div>
+ <div class="footerbottomsection">
+ <div class="uk-child-width-1-4@l uk-child-width-1-2@m uk-child-width-1-1@s" uk-grid>
+ <div>
+ <div>
+ <h4 class="text-gray roboto-slab-regular footerh4tag">Kundenservice</h4>
+ <div class="uk-grid-column-small uk-grid-row-large" uk-grid>
+ <div class="uk-width-auto">
+ <span class="footergridicons" style="margin-top: 5%"
+ uk-icon="icon: receiver; ratio: 1.5"></span>&nbsp;
+ </div>
+ <div class="uk-width-expand">
+ <a class="text-gray kontakt-link" href="tel:0800/1001644">
+ <h3 class="footerh2ptag numberfooter text-gray kontakt-link">0800/100 16 44*</h3>
+ </a>
+ <footer class="footernumberfooter text-gray text-lessbold">*kostenlos
+ aus
+ dem deutschen
+ Festznetz
+ </footer>
+ </div>
+ </div>
+ <br>
+ <div class="uk-grid-column-small uk-grid-row-large" uk-grid>
+ <div class="uk-width-auto">
+ <span class="footergridicons" uk-icon="icon: mail; ratio: 1.5"></span>&nbsp;
+ </div>
+ <div>
+ <a class="text-gray text-lessbold responsive-text-size kontakt-link"
+ href="mailto:diabetes@vitalaire.de">diabetes@vitalaire.de</a>
+ <footer></footer>
+ </div>
+ </div>
+ <br>
+ <div class="uk-grid-column-small uk-grid-row-large" uk-grid>
+ <div class="uk-width-auto">
+ <span class="footergridicons" uk-icon="icon: location; ratio: 1.5"></span>&nbsp;
+ </div>
+ <div class="uk-width-expand">
+ <p class="footerh2ptag text-gray text-lessbold responsive-text-size">
+ <b>Postadresse für
+ Rezepte</b></p>
+
+ <p class="footerh2ptag text-gray text-lessbold responsive-text-size">VitalAire
+ GmbH</p>
+ <p class="footerh2ptag text-gray text-lessbold responsive-text-size">
+ Niederlassung
+ Stuttgart
+ - Bereich Diabetes -
+ Mühleweg 5/1
+ 72800 Eningen u.A.</p>
+ </div>
+ </div>
+ </div>
+ </div>
+ <div>
+ <div>
+ <h4 class="text-gray roboto-slab-regular footerh4tag">Insulinpumpe</h4>
+ <p class="footerptag"><a class="atag text-gray text-lessbold responsive-text-size"
+ href="http://localhost/vital-aire/tslim">t:slim
+ X2 Insulinpumpe</a>
+ </p>
+ <p class="footerptag"><a class="atag text-gray text-lessbold responsive-text-size"
+ href="http://localhost/vital-aire/basal">Basal-IQ
+ Technologie</a></p>
+ <p class="footerptag"><a class="atag text-gray text-lessbold responsive-text-size"
+ href="http://localhost/vital-aire/tslim/cgm">Integration CGM Dexcom
+ G6</a></p>
+ <p class="footerptag"><a class="atag text-gray text-lessbold responsive-text-size"
+ href="http://localhost/vital-aire/tslim/diasend">Anwendung
+ Diasend/glooko</a></p>
+ <p class="footerptag"><a class="atag text-gray text-lessbold responsive-text-size"
+ href="http://localhost/vital-aire/verbrauchsmaterialien">Verbrauchsmaterialien</a>
+ </p>
+ <p class="footerptag"><a class="atag text-gray text-lessbold responsive-text-size"
+ target="_blank" rel="noopener" href="https://shop.vitalaire.de/">Shop</a></p>
+ </div>
+ </div>
+ <div>
+ <div>
+ <h4 class="text-gray roboto-slab-regular footerh4tag">Hilfe & Support</h4>
+  <p class="footerptag"><a class="atag text-gray text-lessbold responsive-text-size"
+ href="http://localhost/vital-aire/tipps">Tipps & Tricks</a>
+ </p>
+  <p class="footerptag"><a class="atag text-gray text-lessbold responsive-text-size"
+ href="http://localhost/vital-aire/kontaktformular">Kontaktformular</a></p>
+ <p class="footerptag"><a class="atag text-gray text-lessbold responsive-text-size"
+ href="http://localhost/vital-aire/download">Downloads</a></p>
+ <p class="footerptag"><a class="atag text-gray text-lessbold responsive-text-size"
+ href="http://localhost/vital-aire/newsletter">Newsletter</a></p>
+ </div>
+ </div>
+ <div>
+ <div>
+ <h4 class="text-gray roboto-slab-regular footerh4tag">Folgt uns auf</h4>
+ <div class="uk-child-width-1-3 footer-social-icon-padding" uk-grid>
+ <a class="atag" href="https://www.instagram.com/tslim_insulinpumpe/"
+ uk-icon="icon: instagram; ratio: 2.5"></a>
+ <a class="atag" uk-icon="icon: facebook; ratio: 2.5"></a>
+ <a class="atag"
+ href="https://www.youtube.com/playlist?list=PLBSG_aB4Wz_fDmG-kxSNluxgr-dJJA9hO"
+ uk-icon="icon: youtube; ratio: 2.5"></a>
+ </div>
+ </div>
+ </div>
+ </div>
+ <div>
+ <div>
+ <p class="text-gray text-lessbold font13" style="margin-top: 50px">
+ <b>Hinweis:</b> <br>
+ <span style="display: block; line-height:1.0;">
+ * Wenn Glukosewarnungen und CGM-Werte nicht zu den Symptomen oder Erwartungen passen,
+ verwenden
+ Sie für Entscheidungen zur Diabetesbehandlung ein Blutzuckermessgerät! Systeme wie die
+ t:slim X2
+ Insulinpumpe mit Basal-IQ Tech-nologie sind kein Ersatz für ein aktives Diabetes-Management,
+ da
+ es Situationen gibt, in denen auch automatische Systeme eine Hypoglykämie nicht verhindern
+ können. Die Basal-IQ Funktion basiert auf kontinuierlichen CGM-Messwerten und kann weder den
+ Glukosespiegel vorhersagen noch die Insulinabgabe unterbrechen, wenn das CGM nicht
+ ordnungsgemäß
+ funktioniert oder nicht mit der Pumpe kommunizieren kann.</span>
+ </p>
+ <p class="text-gray text-lessbold font13">
+ <b>Quellen:</b> <br>
+ <span style="display: block; line-height:1.0;">
+ 1 Forlenza GP, Li Z, Buckingham BA, Pinsker JE, et al. Predictive low glucose suspend
+ reduces
+ hypoglycemia in adults, adolescents, and children with type 1 diabetes in an at-home
+ randomized
+ crossover study: Results of the PROLOG Mal Epublished online August 8, 2018j. Diabetes Care.
+ 0.2337/dc18-0771. 2 Müller L, Habif S, Leas S, Aronoff-Spencer E. Reducing Hypoglycemia in
+ the
+ Real World: A Retrospective Analysis of Predictive Low-Glucose Suspend Technology in an
+ Ambulatory Insulin-Dependent Cohort. Diabetes Technol Ther. 2019;21(9):478 -484. doll
+ 0.1089/dia.2019.0190
+ </span>
+ </p>
+ </div>
+ </div>
+
+ <div uk-grid class="uk-visible@m">
+ <div class="uk-width-expand">
+ <div class="uk-text-left">
+ <span class="text-gray text-lessbold">
+ © 2020 VitalAire GmbH. Alle Rechte vorbehalten.
+ </span>
+ </div>
+ </div>
+ <div class="uk-width-auto">
+ <div class="uk-text-right">
+ <div class="uk-inline footer-link">
+ <a class="atag text-gray text-lessbold" href="http://localhost/vital-aire/impressum">
+ Impressum
+ </a>
+ <a class="atag text-gray text-lessbold" href="http://localhost/vital-aire/datenschutz">
+ Datenschutz
+ </a>
+  </div>
+ </div>
+ </div>
+ </div>
+ <div class="uk-hidden@m">
+ <div>
+ <div class="uk-text-right">
+ <div class="uk-inline footer-link">
+ <a class="atag text-gray text-lessbold" href="http://localhost/vital-aire/impressum">
+ Impressum
+ </a>
+ <a class="atag text-gray text-lessbold" href="http://localhost/vital-aire/datenschutz">
+ Datenschutz
+ </a>
+  </div>
+ </div>
+ </div>
+ <div>
+ <div class="uk-text-left">
+ <span class="text-gray text-lessbold">
+ © 2020 VitalAire GmbH. Alle Rechte vorbehalten.
+ </span>
+ </div>
+ </div>
+ </div>
+ <br />
+ <br />
+ </div>
+ </div>
+</footer>
+ </div>
+ <script src="http://localhost/vital-aire/assets/js/app.js"></script>
+ <script src="http://localhost/vital-aire/assets/js/frontend/uikit.min.js"></script>
+ <script src="http://localhost/vital-aire/assets/js/frontend/uikit-icons.min.js"></script>
+  <script src="http://localhost/vital-aire/assets/js/frontend/custome.js"></script>
+</body>
+
+
+
+</html>

@@ -1,0 +1,238 @@
+.deck1 {
+    background-color: rgb(134, 181, 195);
+    color: white;
+    font-size: 0.6em;
+    padding: 5px 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.deck2 {
+    background-color: rgb(158, 196, 207);
+    color: white;
+    font-size: 0.6em;
+    padding: 5px 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.product-image img {
+    width: 300px !important;
+    /* width: 50% !important; */
+    /* min-height: 100% !important; */
+    /* position: relative !important; */
+
+}
+
+.small-left-padding:first-child {
+    padding-left: 0px !important;
+}
+
+option {
+    font-size: 1.4em;
+}
+
+.category-image {
+    width: 300px !important;
+}
+
+.product-image {
+    min-height: 300px !important;
+    text-align: center;
+}
+
+.uk-thumbnav li a {
+    opacity: 0.6;
+    color: rgb(134, 181, 195);
+}
+
+.uk-thumbnav .uk-active a {
+    background-color: rgb(207, 225, 231);
+    opacity: 1;
+
+
+}
+
+.butoncoveringanimg {
+    text-align: center;
+    background-color: inherit;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    border-width: 0px;
+}
+
+.butoncoveringanimg:focus {
+    outline: none;
+}
+
+.quantityofcart {
+    border: none;
+    background-color: inherit;
+    width: 20px;
+    padding: 0px;
+    font-size: 1.1em !important;
+    font-family: Roboto-regular;
+    font-weight: normal;
+    color: #666;
+}
+
+.quantityofcart:focus {
+    outline: none;
+}
+
+.star-padding {
+    padding-left: 0px !important;
+
+    margin-left: 0px !important;
+    display: inline-block;
+}
+
+.star-padding .uk-grid {
+    margin-left: 0px !important;
+}
+
+.star-padding .uk-grid>a:first-child {
+    display: none !important;
+}
+
+
+.padd-left {
+    padding-left: 100px !important;
+}
+
+.roboto-bold {
+    font-family: Roboto-700;
+}
+
+.blue-card,
+.blue-caed-focus {
+    width: 100%;
+}
+
+.grid-padd>div {
+    padding-right: 10px !important;
+    padding-left: 0px !important;
+}
+
+.blue-card-focus>div {
+    /* border-radius: 5px; */
+    font-size: 0.8em;
+    padding: 10px 10px;
+    text-align: center;
+    background-color: rgb(134, 181, 195);
+    color: white;
+    /* font-family: Roboto-700; */
+}
+
+.blue-card-notfocus>div {
+    /* border-radius: 5px; */
+    font-size: 0.8em;
+    padding: 10px 10px;
+    text-align: center;
+    background-color: #ffffff;
+    color: #86b5c3;
+    /* font-family: Roboto-700; */
+    border: 1px solid #86b5c3;
+
+}
+
+.blue-card,
+.blue-card-focus,
+.blue-card-notfocus {
+    line-height: 12px;
+}
+
+.blue-card-focus:hover,
+.blue-card-notfocus:hover {
+    text-decoration: none;
+}
+
+.blue-card>div {
+    font-family: Roboto-700;
+    border-radius: 5px;
+    font-size: 0.8em;
+    padding: 10px 10px;
+    text-align: center;
+    border: 1px solid rgb(134, 181, 195);
+    /* background-color: rgb(134, 181, 195); */
+    color: rgb(134, 181, 195);
+}
+
+.uk-select {
+    border: 1px solid rgb(134, 181, 195) !important;
+    /* border-radius: none; */
+}
+
+.blue-card-switch a {
+    text-transform: none !important;
+    background-color: transparent !important;
+    font-family: Roboto-700;
+    font-size: 1.2em !important;
+    color: rgba(134, 181, 195, .4) !important;
+}
+
+.blue-card-switch .uk-active a {
+    color: rgb(134, 181, 195) !important;
+    border-bottom: 2px solid rgb(134, 181, 195);
+}
+
+.shop-card-transparent>div {
+    background-color: transparent !important;
+}
+
+.shop-card-transparent>div img {
+    width: 300px !important;
+}
+
+.zubehor-padd>div {
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+}
+
+.rating-text {
+    color: rgb(134, 181, 195);
+    font-size: 4em !important;
+    font-family: Roboto-Slab-regular;
+}
+
+.bewertugen-scroll {
+    overflow-y: auto;
+    height: 40vh;
+}
+
+.bewertugen-scroll::-webkit-scrollbar {
+    width: 10px;
+}
+
+.inner-padding-select {
+    padding: 1% 15% !important;
+}
+
+/* Track */
+.bewertugen-scroll::-webkit-scrollbar-track {}
+
+.star-width {
+    width: auto;
+}
+
+.star-width .uk-grid {
+    margin-left: 0px !important;
+}
+
+.bewertugen-scroll::-webkit-scrollbar-thumb {
+    background: rgb(134, 181, 195) !important;
+    border-radius: 30px !important;
+
+}
+
+@media(max-width:800px) {
+    .padd-left {
+        padding-left: 20px !important;
+    }
+
+    .blue-card-switch {
+        display: block !important;
+        text-align: center;
+    }
+}

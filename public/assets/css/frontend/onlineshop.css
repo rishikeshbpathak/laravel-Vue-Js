@@ -1,0 +1,88 @@
+.onlineshopslidercover {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.slide-content {
+    z-index: 100;
+    position: absolute;
+    opacity: 0.0;
+    transition: 0.4s;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.slide-content span {
+    color: #86b5c3;
+    font-size: 1.4rem;
+}
+
+.image-slide img {
+    height: 100% !important;
+    width: 100% !important;
+    max-width: auto !important;
+}
+
+.image-slide>li:hover .slide-content {
+    opacity: 1.0;
+    background-color: rgba(255, 255, 255, 0.9);
+
+}
+
+.image-slide>li:hover img {
+    opacity: 0.3;
+}
+
+.slider-relative {
+    width: 100%;
+    padding-top: 100%;
+    position: relative;
+}
+
+.uk-icon-button {
+    background-color: #86b5c3 !important;
+    color: white !important;
+    width: 60px !important;
+    height: 60px !important;
+    font-size: 3em !important;
+    font-family: Roboto-Slab-regular !important;
+}
+
+.buttonslider {
+    background-color: #86b5c3;
+    color: white;
+    padding: 12px 50px;
+    border: none;
+    border-radius: 5px;
+    font-family: Roboto-500;
+    text-decoration: none !important;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    /* font-weight: 400; */
+    font-stretch: normal;
+    font-size: 13.3333px;
+    line-height: normal;
+    /* -webkit-appearance: button; */
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    width: 60%;
+}
+
+.buttonslider:hover {
+    color: white !important;
+    transition: .4s;
+    background-color: rgb(72, 120, 134) !important;
+}

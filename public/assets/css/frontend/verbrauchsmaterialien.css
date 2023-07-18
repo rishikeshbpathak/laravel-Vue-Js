@@ -1,0 +1,76 @@
+.uk-thumbnav a {
+    border: 1px solid rgba(96, 162, 217, .4);
+}
+
+.uk-thumbnav .uk-active a {
+    border: 1px solid rgb(96, 162, 217) !important;
+}
+
+.uk-slideshow-items {
+    min-height: 380px !important;
+}
+
+.grid-stick {
+    margin-left: 0px !important;
+}
+
+.page1-active {
+    border-bottom: 3px solid white;
+}
+
+.center-all {
+    right: 50%;
+    bottom: 50%;
+    transform: translate(50%, 50%);
+    position: absolute;
+}
+
+@media (max-width: 1200px) {
+    .thumbnav-ver-margin {
+        margin-left: 20px;
+    }
+}
+
+.custom-padding-top {
+    padding-top: 2% !important;
+}
+
+.download-btn {
+    background-color: #86b5c3;
+    color: white;
+    padding: 12px 40px;
+    border: none;
+    border-radius: 5px;
+    font-family: Roboto-500;
+    text-decoration: none !important;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: 400;
+    font-stretch: normal;
+    font-size: 13.3333px;
+    line-height: normal;
+    /* -webkit-appearance: button; */
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+}
+
+.download-btn:hover {
+    color: grey;
+}
+
+.download-button {
+    letter-spacing: 1.5px !important;
+    width: 65% !important;
+    padding: 15px 10px !important;
+}
